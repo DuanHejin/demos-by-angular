@@ -1,3 +1,5 @@
-<p>
-  issue-list works!
-</p>
+<h2>Issue List</h2>
+<div *ngFor="let issue of issueList | async;let i = index;">
+  <label>{{i + 1}}. </label>
+  <a [routerLink]="['/detail', issue.id]">{{issue.name}}</a>
+</div>

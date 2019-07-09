@@ -9,7 +9,16 @@ export class NavComponent implements OnInit {
 
   constructor() { }
 
+  navList: any[] = [];
+
   ngOnInit() {
+    this.navList = [{
+      label: 'Issue List',
+      url: ['/list']
+    }, {
+      label: 'Shopping Cart',
+      url: ['/cart']
+    }];
   }
 
 }

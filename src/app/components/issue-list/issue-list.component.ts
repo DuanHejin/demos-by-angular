@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { IssueService } from 'src/app/services/issue.service';
+import { Observable } from 'rxjs';
 
 @Component({
   selector: 'app-issue-list',
@@ -7,9 +9,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class IssueListComponent implements OnInit {
 
-  constructor() { }
+  constructor(private issueService: IssueService) { }
+
+  issueList: Observable<any>;
 
   ngOnInit() {
+    this.issueList = this.issueService.getIssueList();
   }
 
 }

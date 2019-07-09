@@ -15,6 +15,15 @@
         },
         "@schematics/angular:module": {
           "spec": false
+        },
+        "@schematics/angular:service": {
+          "spec": false
+        },
+        "@schematics/angular:pipe": {
+          "spec": false
+        },
+        "@schematics/angular:directive": {
+          "spec": false
         }
       },
       "targets": {
