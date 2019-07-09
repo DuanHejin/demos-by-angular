@@ -1,0 +1,12 @@
+.container-wrap {
+  display: flex;
+}
+
+.nav {
+  width: 250px;
+  min-height: calc(100vh - 108px);
+}
+
+.container {
+  flex: auto;
+}
