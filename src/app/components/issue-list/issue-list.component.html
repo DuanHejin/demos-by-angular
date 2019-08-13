@@ -1,5 +1,5 @@
 <h2>Issue List</h2>
-<div *ngFor="let issue of issueList | async;let i = index;">
-  <label>{{i + 1}}. </label>
-  <a [routerLink]="['/detail', issue.id]">{{issue.name}}</a>
+<div class="form-group" *ngFor="let issue of issueList | async;let i = index;">
+  <label class="control-label">{{i + 1}}. </label>
+  <span><a [routerLink]="['/detail', issue.id]">{{issue.name}}</a></span>  
 </div>

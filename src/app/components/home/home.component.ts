@@ -9,7 +9,12 @@ export class HomeComponent implements OnInit {
 
   constructor() { }
 
+  navExpand: boolean = true;
+
   ngOnInit() {
   }
 
+  onClickNav() {
+    this.navExpand = !this.navExpand;
+  }
 }

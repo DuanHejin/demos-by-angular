@@ -1,6 +1,8 @@
 <h2>Issue Detail</h2>
 <div *ngIf='issue'>
-  <div>Name: {{issue.name}}</div>
-  <div>Price: {{issue.price | currency}}</div>
-  <button type="button" (click)='onClickBuy(issue)'>Buy</button>
+  <div class="form-group">Name: {{issue.name}}</div>
+  <div class="form-group">Price: {{issue.price | currency}}</div>
+  <div class="form-group">
+    <button class="btn btn-default" type="button" (click)='onClickBuy(issue)'>Buy</button>
+  </div>
 </div>

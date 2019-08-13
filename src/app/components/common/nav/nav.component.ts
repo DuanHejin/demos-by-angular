@@ -18,6 +18,9 @@ export class NavComponent implements OnInit {
     }, {
       label: 'Shopping Cart',
       url: ['/cart']
+    }, {
+      label: 'Rxjs demos',
+      url: ['/rxjs']
     }];
   }
 

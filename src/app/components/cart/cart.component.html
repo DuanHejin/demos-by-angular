@@ -3,7 +3,7 @@
   <ul>
     <li *ngFor="let issue of issueList;">{{issue.name}}</li>
   </ul>
-  <button type="button" (click)="onClickClear()">Clear All</button>
+  <button class="btn btn-default btn-danger" type="button" (click)="onClickClear()">Clear All</button>
 </div>
 <div *ngIf="!issueList.length;">
   You haven't purchase anything.

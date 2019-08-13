@@ -1,4 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+@import './thirdPartyStyles.css';
+
+html {
+  font-size: 62.5%;
+}
+
 html, body {
   height: 100%;
   width: 100%;

@@ -1,0 +1,4 @@
+<div class="form-group" *ngFor="let case of cases">
+  <button class="btn btn-primary" type="button" (click)="case.method()">{{case.label}}</button>
+  <span>{{case.desc}}</span>
+</div>

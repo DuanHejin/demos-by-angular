@@ -1,12 +1,17 @@
 <div>
-  <app-header></app-header>
-  <div class="container-wrap">
-    <div class="nav">
+  <div class="header">
+    <app-header (clickNav)="onClickNav()"></app-header>
+  </div>
+  <div class="nav-wrap">
+    <div class="drawer-transition drawer-backdrop"></div>
+    <div class="nav" [ngClass]="{'hidden': !navExpand}">
       <app-nav></app-nav>
     </div>
-    <div class="container">
+    <div class="nav-content" [ngClass]="{'expand': navExpand}">
       <router-outlet></router-outlet>
     </div>
   </div>
-  <app-footer></app-footer>
+  <!-- <div class="footer">
+    <app-footer></app-footer>
+  </div> -->
 </div>

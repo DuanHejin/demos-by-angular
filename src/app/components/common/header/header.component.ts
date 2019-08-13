@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, EventEmitter, Output } from '@angular/core';
 
 @Component({
   selector: 'app-header',
@@ -9,7 +9,13 @@ export class HeaderComponent implements OnInit {
 
   constructor() { }
 
+  @Output()
+  clickNav: EventEmitter<any> = new EventEmitter();
+
   ngOnInit() {
   }
 
+  onClickNav() {
+    this.clickNav.emit();
+  }
 }

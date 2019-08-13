@@ -11,6 +11,7 @@ import { HomeComponent } from './components/home/home.component';
 import { AppRoutingModule } from './app-routing.module';
 import { SharedCommonModule } from './components/common/shared-common.module';
 import { CartComponent } from './components/cart/cart.component';
+import { RxjsDemosComponent } from './components/rxjs-demos/rxjs-demos.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { CartComponent } from './components/cart/cart.component';
     HomeComponent,
     IssueListComponent,
     IssueDetailComponent,
-    CartComponent
+    CartComponent,
+    RxjsDemosComponent
   ],
   imports: [
     BrowserModule,

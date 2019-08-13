@@ -1,4 +1,23 @@
 ul {
-  list-style: none;
-  padding-left: 10px;
+  max-width: 260px;
+  font-size: 1.4rem;
+  margin: 0px auto;
+}
+
+ul li {
+  box-sizing: border-box;
+  color: rgb(68, 68, 68);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+  width: 100%;
+  overflow-wrap: break-word;
+  padding: 8px;
+  text-decoration: none;
+}
+
+ul li:first-child {
+  padding-top: 2rem;
 }
