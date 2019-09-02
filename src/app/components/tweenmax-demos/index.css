@@ -1,0 +1,20 @@
+@import './color.css';
+@import './box.css';
+@import './button.css';
+
+html {
+    font-size: 625%;
+}
+html, body {
+    padding: 0 0;
+    margin: 0 0;
+    height: 100%;
+}
+html * {
+    box-sizing: border-box;
+    /* font-size: .16rem; */
+}
+
+.margin-left-200 {
+    margin-left: 200px;
+}

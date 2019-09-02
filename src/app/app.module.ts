@@ -12,6 +12,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { SharedCommonModule } from './components/common/shared-common.module';
 import { CartComponent } from './components/cart/cart.component';
 import { RxjsDemosComponent } from './components/rxjs-demos/rxjs-demos.component';
+import { TweenmaxDemosComponent } from './components/tweenmax-demos/tweenmax-demos.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { RxjsDemosComponent } from './components/rxjs-demos/rxjs-demos.component
     IssueListComponent,
     IssueDetailComponent,
     CartComponent,
-    RxjsDemosComponent
+    RxjsDemosComponent,
+    TweenmaxDemosComponent
   ],
   imports: [
     BrowserModule,

@@ -21,6 +21,9 @@ export class NavComponent implements OnInit {
     }, {
       label: 'Rxjs demos',
       url: ['/rxjs']
+    }, {
+      label: 'Tweenmax demos',
+      url: ['/tweenmax']
     }];
   }
 

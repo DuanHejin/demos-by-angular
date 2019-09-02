@@ -1,0 +1,18 @@
+/* ================= box css start ================= */
+.box {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 0.6rem;
+    margin-top: 0.4rem;
+    display:inline-block
+}
+.box-align-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box-lg {
+    width: 10rem;
+    height: 10rem;
+    font-size: 5rem;
+}
