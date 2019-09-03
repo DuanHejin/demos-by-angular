@@ -6,6 +6,7 @@ import { IssueDetailComponent } from './components/issue-detail/issue-detail.com
 import { CartComponent } from './components/cart/cart.component';
 import { RxjsDemosComponent } from './components/rxjs-demos/rxjs-demos.component';
 import { TweenmaxDemosComponent } from './components/tweenmax-demos/tweenmax-demos.component';
+import { TweenmaxEasingComponent } from './components/tweenmax-easing/tweenmax-easing.component';
 
 const routes: Routes = [
   {path: '', redirectTo: 'list', pathMatch: 'full'},
@@ -14,6 +15,7 @@ const routes: Routes = [
   {path: 'cart', component: CartComponent},
   {path: 'rxjs', component: RxjsDemosComponent},
   {path: 'tweenmax', component: TweenmaxDemosComponent},
+  {path: 'tweenmaxEasing', component: TweenmaxEasingComponent},
   {path: '**', redirectTo: 'home'},
 ];
 

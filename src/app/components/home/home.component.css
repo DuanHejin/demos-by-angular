@@ -1,8 +1,12 @@
 .header {
-  
+  position: fixed;
+  width: 100%;
+  z-index: 1;
 }
 
 .nav-wrap {
+  padding-top: 64px;
+  overflow: hidden;
 }
 
 .drawer-transition {

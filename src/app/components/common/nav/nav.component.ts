@@ -24,6 +24,9 @@ export class NavComponent implements OnInit {
     }, {
       label: 'Tweenmax demos',
       url: ['/tweenmax']
+    }, {
+      label: 'Tweenmax Easing',
+      url: ['/tweenmaxEasing']
     }];
   }
 

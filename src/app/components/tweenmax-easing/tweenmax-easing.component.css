@@ -1,0 +1,13 @@
+.box {
+    width: 100px;
+}
+div.margin-left-200 {
+    margin-right: 200px;
+}
+div.margin-left-200 + div {
+    margin-top: 10px;
+    border-top: 1px solid grey;
+}
+h2 {
+    text-transform: capitalize;
+}

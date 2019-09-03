@@ -13,6 +13,7 @@ import { SharedCommonModule } from './components/common/shared-common.module';
 import { CartComponent } from './components/cart/cart.component';
 import { RxjsDemosComponent } from './components/rxjs-demos/rxjs-demos.component';
 import { TweenmaxDemosComponent } from './components/tweenmax-demos/tweenmax-demos.component';
+import { TweenmaxEasingComponent } from './components/tweenmax-easing/tweenmax-easing.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { TweenmaxDemosComponent } from './components/tweenmax-demos/tweenmax-dem
     IssueDetailComponent,
     CartComponent,
     RxjsDemosComponent,
-    TweenmaxDemosComponent
+    TweenmaxDemosComponent,
+    TweenmaxEasingComponent
   ],
   imports: [
     BrowserModule,
