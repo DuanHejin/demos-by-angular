@@ -1,7 +1,5 @@
-<div>
-  <ul>
-    <li *ngFor='let nav of navList;'>
-      <a [routerLink]='nav.url'>{{nav.label}}</a>
-    </li>
-  </ul>
+<div class="nav-menu">
+    <div *ngFor='let nav of navList;'>
+      <a class="nav-menu-item" [routerLink]='nav.url'>{{nav.label}}</a>
+    </div>
 </div>

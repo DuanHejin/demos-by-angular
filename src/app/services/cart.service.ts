@@ -4,10 +4,10 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class CartService {
-  
+
   private issueList: any[] = [];
 
-  constructor() { }
+  constructor() {}
 
   addToCart(issue) {
     window.alert(`You have successfully add the ${issue.name} to the cart!`);

@@ -1,10 +1,10 @@
-ul {
+.nav-menu {
+  margin-top: 2rem;
   max-width: 260px;
   font-size: 1.4rem;
-  margin: 0px auto;
 }
 
-ul li {
+.nav-menu-item {
   box-sizing: border-box;
   color: rgb(68, 68, 68);
   cursor: pointer;
@@ -14,10 +14,20 @@ ul li {
   text-align: left;
   width: 100%;
   overflow-wrap: break-word;
-  padding: 8px;
-  text-decoration: none;
+  transition: background-color .2s;
 }
 
-ul li:first-child {
-  padding-top: 2rem;
+.nav-menu-item {
+  padding: 8px 8px 8px 20px;
+  width: 100%;
+  text-decoration: none;
+  cursor: pointer;
+  text-transform: uppercase;
 }
+
+.nav-menu-item:hover {
+  background-color: #dbdbdb;
+  color: #1976d2;
+  text-shadow: 0 0 5px #fff;
+}
+

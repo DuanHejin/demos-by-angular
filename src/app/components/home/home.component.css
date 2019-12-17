@@ -32,6 +32,8 @@
   left: 0;
   min-width: 260px;
   box-shadow: 6px 0 6px rgba(0,0,0,.1);
+  transition: all .4s ease-out;
+
 }
 .nav.hidden {
   visibility: hidden;
@@ -42,6 +44,7 @@
   min-height: calc(100vh - 64px);
   box-sizing: border-box;
   font-size: 1.4rem;
+  transition: margin-left .4s cubic-bezier(.25,.8,.25,1);
 }
 
 .nav-content.expand {

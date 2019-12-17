@@ -27,7 +27,7 @@ export class IssueDetailComponent implements OnInit {
   }
 
   ngOnDestory() {
-    if(this.paramSubscription) this.paramSubscription.unsubscribe();
+    if (this.paramSubscription) { this.paramSubscription.unsubscribe(); }
   }
 
   onClickBuy = (issue) => {

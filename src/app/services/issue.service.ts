@@ -1,15 +1,19 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { BaseService } from './base.service';
 
 @Injectable({
   providedIn: 'root'
 })
-export class IssueService {
+export class IssueService extends BaseService {
 
-  constructor(private http: HttpClient) { }
+  constructor(public http: HttpClient) {
+    super();
+  }
 
   getIssueList() {
-    return this.http.get('/assets/issue/list.json');
+    const listUrl = 'issue/list';
+    return this.http.get(this.resolveUrl(listUrl));
   }
 
   async getIssueById(id) {
